@@ -191,3 +191,11 @@ INSERT INTO tblReference VALUES
 ('OUT003', 'CAT07', 'REF05'), ('OUT004', 'CAT05', 'REF06'),
 ('OUT005', 'CAT09', 'REF07'), ('OUT006', 'CAT04', 'REF08'),
 ('OUT007', 'CAT10', 'REF09'), ('OUT001', 'CAT03', 'REF10');
+
+
+INSERT INTO tblPurchase_Order_Details VALUES 
+('PO01', 'OUT001', 1, 'INV01', 10, 50.00), ('PO02', 'OUT002', 1, 'INV03', 20, 15.00),
+('PO03', 'OUT001', 1, 'INV02', 8, 100.00), ('PO04', 'OUT004', 1, 'INV06', 5, 40.00),
+('PO05', 'OUT003', 1, 'INV05', 15, 10.00), ('PO06', 'OUT001', 1, 'INV01', 8, 50.00),
+('PO07', 'OUT001', 1, 'INV10', 10, 100.00), ('PO08', 'OUT006', 1, 'INV08', 20, 30.00),
+('PO09', 'OUT002', 1, 'INV04', 5, 50.00), ('PO10', 'OUT005', 1, 'INV07', 10, 10.00);
