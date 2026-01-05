@@ -31,4 +31,8 @@ export class Employee {
 
   @Column()
   Email: string;
+
+  @Column()
+  password: varchar;  
 }
+
