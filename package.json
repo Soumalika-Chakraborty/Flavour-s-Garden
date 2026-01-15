@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "mysql2": "^3.16.0",
-    "request": "^2.88.2",
-    "typeorm": "^0.3.28"
-  }
-}
